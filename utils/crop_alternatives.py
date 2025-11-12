@@ -9,7 +9,7 @@ class CropAlternatives:
         # Default path: data/crop_data_preprocessed.csv
         if preprocessed_csv_path is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            preprocessed_csv_path = os.path.join(base_dir, '../data/crop_recommendation.csv')
+            preprocessed_csv_path = os.path.join(base_dir, '../data/Crop_recommendation.csv')
             preprocessed_csv_path = os.path.normpath(preprocessed_csv_path)
 
         if not os.path.exists(preprocessed_csv_path):
