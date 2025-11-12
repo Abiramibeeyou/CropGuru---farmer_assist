@@ -150,7 +150,7 @@ def main():
 
     if st.button("Get Alternatives"):
         if recommended_crop:
-            alternatives_finder = CropAlternatives('data/crop_recommendation.csv')
+            alternatives_finder = CropAlternatives('data/Crop_recommendation.csv')
             alternatives = alternatives_finder.get_alternative_crops(recommended_crop.strip().lower())
 
             if isinstance(alternatives, str):
